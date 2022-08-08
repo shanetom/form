@@ -55,8 +55,8 @@ function checkPassword(passwordValue, password2Value) {
      } 
 
      if (passwordValue !== password2Value) {
-         setErrorFor(password, '');
-         setErrorFor(password2, 'Passwords do not match');
+        setErrorFor(password, '');
+        setErrorFor(password2, 'Passwords do not match');
      }
 }
 
